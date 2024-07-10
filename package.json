@@ -1,0 +1,26 @@
+{
+  "name": "square-satellite",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.7.0",
+    "astro": "^4.11.3",
+    "astro-icon": "^1.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "svelte": "^4.2.18",
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "@tsconfig/svelte": "^5.0.4",
+    "sass": "^1.77.6",
+    "svelte-check": "^3.8.4"
+  }
+}
